@@ -13,8 +13,8 @@ con.connect(
         if (err) throw err;
         console.log("Conexão realizada com sucesso!");
 
-        var Nome = "Pedro";
-        var Endereco = "Sobradinho 2";
+        var Nome = "Ianco Ferraz de Alencar";
+        var Endereco = "Aguas Claras";
 
         var SQL = "INSERT INTO agenda (nome, endereco) VALUES";
         SQL = SQL + "('" + Nome + "', '"+ Endereco +"')";
